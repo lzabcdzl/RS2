@@ -275,6 +275,16 @@ class LoginPage(BasePage):
     def click_return(self):
         self.click(self.return_loc)
 
+    def ceshi(self):
+        self.open('http://app.ringsmiley.top')
+        self.wait(2)
+        self.click_tiaoguo()
+        self.wait(3)
+        self.click_yuyan()
+        self.wait(2)
+        self.click_zhongwen()
+        self.wait(2)
+
     # def login(self, user='100001181', pwd='123456a'):
     #     yzm = self.Yzm()
     #     self.input_user(user)

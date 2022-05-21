@@ -15,6 +15,7 @@ class LoginTest(unittest.TestCase):
         cls.logger = Utility.get_logger(level=logging.INFO, logname='E:\\ringsmiley\RS2\\report\\ringsmiley.log')
         cls.page = LoginPage()
         cls.logger.info('打开浏览器')
+        cls.page.ceshi()
 
     @classmethod
     def tearDownClass(cls) -> None:
@@ -25,15 +26,6 @@ class LoginTest(unittest.TestCase):
     @data(*Utility.get_csv_data(r'E:\ringsmiley\RS2\data\register_success.csv'))
     def test_register_success(self, user, yzm, pwd):
         try:
-            self.page.open('http://app.ringsmiley.top')
-            self.logger.info('打开页面')
-            self.page.wait(2)
-            self.page.click_tiaoguo()
-            self.page.wait(3)
-            self.page.click_yuyan()
-            self.page.wait(2)
-            self.page.click_zhongwen()
-            self.page.wait(2)
             self.page.click_register()
             self.page.wait(3)
             self.page.input_user(user)
@@ -76,12 +68,9 @@ class LoginTest(unittest.TestCase):
             self.page.wait(2)
             self.page.click_register()
             self.page.wait(3)
-            if user:
-                self.page.input_user(user)
-            if yzm:
-                self.page.input_yzm(yzm)
-            if pwd:
-                self.page.input_pwd(pwd)
+            self.page.input_user(user)
+            self.page.input_yzm(yzm)
+            self.page.input_pwd(pwd)
             self.page.wait(3)
             self.page.click_login()
             self.page.wait(1)
