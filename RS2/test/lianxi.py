@@ -16,15 +16,7 @@ class XiaoxiTest(unittest.TestCase):
         cls.logger = Utility.get_logger(level=logging.INFO, logname='E:\\ringsmiley\RS2\\report\\lianxi.log')
         cls.page = LoginPage()
         cls.logger.info('打开浏览器')
-        cls.page.open('http://app.ringsmiley.top')
-        cls.logger.info('打开页面')
-        cls.page.wait(2)
-        cls.page.click_tiaoguo()
-        cls.page.wait(3)
-        cls.page.click_yuyan()
-        cls.page.wait(2)
-        cls.page.click_zhongwen()
-        cls.page.wait(2)
+        cls.page.ceshi()
 
     @classmethod
     def tearDownClass(cls) -> None:
