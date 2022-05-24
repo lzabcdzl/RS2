@@ -19,16 +19,3 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
-#sssssssssssssssss
-#bbbbbbbbbbbbbbbbbbbbbbbb
-#vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-#ffffffffffffffffffffffffffffffffffffffffffffffffff
-#dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-#hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-#llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-#uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-#qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-#rrrrrrrrrrrrrrrrrrrrrrrr
-#ddddddddddddddddd
